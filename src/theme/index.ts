@@ -54,7 +54,17 @@ declare module "@mui/material/styles" {
     overrides: ComponentsOverrides;
   }
 }
-
+export const transitions = {
+  duration: {
+    shortest: 150,
+    shorter: 200,
+    short: 250,
+    standard: 300,
+    complex: 375,
+    enteringScreen: 225,
+    leavingScreen: 195,
+  },
+};
 export const colors: IColors = {
   coolBlue: "#0076cf",
   coolBlueLight: "#cce4f6",
